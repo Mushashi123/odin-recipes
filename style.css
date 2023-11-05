@@ -1,0 +1,31 @@
+body {
+  font-family: "Arial", sans-serif;
+  color: #040d12;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Courier New", monospace;
+}
+
+.h-main {
+  color: #610c9f;
+}
+
+.h-secondary {
+  font-size: 25px;
+  color: #940b92;
+}
+
+.dish-image {
+  height: auto;
+  width: 360px;
+}
+
+.steps h3 {
+  color: #da0c81;
+}
