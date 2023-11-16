@@ -4,33 +4,81 @@
     <meta charset="utf-8" />
     <title>Recipes | Home Page</title>
     <link rel="stylesheet" href="./style.css" />
+    <style>
+      html {
+        box-sizing: border-box;
+      }
+
+      * {
+        box-sizing: inherit;
+        margin: 0;
+        padding: 0;
+      }
+
+      .wrapper {
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      .h-main {
+        color: white;
+        background-color: #610c9f;
+        padding: 23px;
+        text-align: center;
+      }
+
+      .hero {
+        text-align: center;
+        margin: 10px 0 52px;
+      }
+
+      .hero img {
+        display: inline-block;
+        margin-bottom: 15px;
+      }
+
+      .h-secondary {
+        background-color: #940b92;
+        color: white;
+        padding: 16px;
+      }
+
+      .links {
+        margin: 30px 0;
+      }
+
+      .links li {
+        margin-bottom: 8px;
+      }
+    </style>
   </head>
   <body>
-    <h1 class="h-main">Odin Recipies</h1>
-
-    <img src="./images/giphy.gif" alt="animated food image" width="200" />
-
-    <p>
-      Welcome to Odin Recpies, your one-stop destination for all things food!
-      Our recipe website is a food lover's paradise, designed to inspire and
-      elevate your culinary journey. Whether you're a seasoned chef or a
-      beginner in the kitchen, we have a delectable array of recipes, cooking
-      tips, and culinary resources to satisfy your cravings and spark your
-      creativity.
-    </p>
-
-    <h2 class="h-secondary">Recipies</h2>
-    <!-- links to other pages of this website  -->
-    <ul>
-      <li>
-        <a href="./recipes/bibimbap.html">Bibimbap recipe</a>
-      </li>
-      <li>
-        <a href="./recipes/chicken-paprikash.html">Chicken paprikash</a>
-      </li>
-      <li>
-        <a href="./recipes/apple-spinach-salad.html">Apple Spinach Salad</a>
-      </li>
-    </ul>
+    <div class="wrapper">
+      <h1 class="h-main">Odin Recipies</h1>
+      <div class="hero">
+        <img src="./images/giphy.gif" alt="animated food image" width="200" />
+        <p>
+          Welcome to Odin Recpies, your one-stop destination for all things
+          food! Our recipe website is a food lover's paradise, designed to
+          inspire and elevate your culinary journey. Whether you're a seasoned
+          chef or a beginner in the kitchen, we have a delectable array of
+          recipes, cooking tips, and culinary resources to satisfy your cravings
+          and spark your creativity.
+        </p>
+      </div>
+      <h2 class="h-secondary">Recipies</h2>
+      <!-- links to other pages of this website  -->
+      <ul class="links">
+        <li>
+          <a href="./recipes/bibimbap.html">Bibimbap recipe</a>
+        </li>
+        <li>
+          <a href="./recipes/chicken-paprikash.html">Chicken paprikash</a>
+        </li>
+        <li>
+          <a href="./recipes/apple-spinach-salad.html">Apple Spinach Salad</a>
+        </li>
+      </ul>
+    </div>
   </body>
 </html>
